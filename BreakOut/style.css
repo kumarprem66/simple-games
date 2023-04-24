@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    position:absolute;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+  
+   
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: indigo;
+  
+   
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+button{
+    position: absolute;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#score{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    padding: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+
+    margin-left: 20px;
+    justify-content: center;
+
+}
+
+.square{
+
+    height: 200px;
+    border: 1px solid black;
+}
+
+.mole{
+    background-image: url("/memorygame/images/milkshake.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+#start{
+    padding: 10px;
+    background: green;
+    cursor: pointer;
+}
+
